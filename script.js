@@ -91,7 +91,7 @@ function typewriter() {
 }
 
 window.onload = () => {
-  if (location.pathname == "/index.html"||location.pathname=="/"||location.pathname=="") {
+  if (location.pathname == "/index.html"||location.pathname=="/"||location.pathname==""||location.pathname=="/PersonalWebsite/") {
     typewriter();
   }
 };
